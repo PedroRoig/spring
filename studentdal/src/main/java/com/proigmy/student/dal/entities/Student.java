@@ -10,6 +10,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name="studenttab")
 public class Student {
+	// Testing changes
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
